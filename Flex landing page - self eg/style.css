@@ -1,6 +1,7 @@
 /* The following line is added for importing the poppins & Roboto font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+/* Resets */
 *{
     margin: 0;
     padding: 0;
@@ -44,4 +45,31 @@ p{
 a{
     text-decoration: none;
     display: inline-block;
+}
+
+
+/* Utility Class */
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(./assets/asset\ 30.png);
+    background-size: 300px;
+}
+
+
+.banner-text{
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
 }
