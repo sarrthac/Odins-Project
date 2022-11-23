@@ -1,0 +1,11 @@
+.section-1{
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+.header{
+  display: flex;
+  
+}
