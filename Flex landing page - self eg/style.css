@@ -1,3 +1,4 @@
+/* The following line is added for importing the poppins & Roboto font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 *{
@@ -6,7 +7,9 @@
     box-sizing: border-box;
 }
 
+
 :root {
+    /* Declaring the global variables for different colors which are frequently used in code to reduce redundancy*/
     --primary-text-color : #183b56;
     --secondary-text-color : #577592;
     --accent-color : #2294ed;
