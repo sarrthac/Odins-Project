@@ -50,6 +50,8 @@ a{
 ul{
    list-style: none;
 }
+
+
 /* ------------------------------------------------------------- */
 
 /* Utility Classes */
@@ -107,7 +109,7 @@ ul{
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
-/* ------------------------------------------------------------------------ */
+/* -------------------------------- ------------------ */
 
   /* Top banner */
 
@@ -125,7 +127,7 @@ ul{
 
 
 
-/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------- */
   
     /* nav */
 
@@ -176,4 +178,22 @@ header{
 
 .header-right img{
     width: 600px;
+}
+
+/* ---------------------------------------------------- */
+
+/* companies section */
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logos{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 46px;
 }
