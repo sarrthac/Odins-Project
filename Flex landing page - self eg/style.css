@@ -1,5 +1,5 @@
 /* The following line is added for importing the poppins & Roboto font from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
 /* Resets */
 *{
@@ -249,4 +249,68 @@ header{
 .features-desc{
     flex-direction: column;
     align-items: flex-start;
+}
+
+/* ---------------------------------------------------- */
+
+/* examples section */
+
+.examples-header{
+    text-align: center;
+}
+
+.examples-header h2{
+    margin-top: 30px;
+}
+.examples-header a{
+    margin-top: 20px;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black; 
+    background-position: center; 
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(./assets/asset\ 34.jpeg);
+    background-size:cover; 
+    transition: 0.3s ease-out;
+}
+
+.examples-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+/* nth child property used for different images of the same code */
+.examples-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(./assets/asset\ 35.jpeg);
+    background-size:cover; 
+}
+
+.examples-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(./assets/asset\ 36.jpeg);
+    background-size:cover; 
+}
+
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(./assets/asset\ 37.jpeg);
+    background-size:cover; 
+}
+
+.examples-area{
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.examples-area h3{
+    font-weight: 500;
+    font-size:large;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
 }
