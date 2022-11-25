@@ -317,7 +317,7 @@ header{
 
 /* ---------------------------------------------------- */
 
-/* examples section */
+/* cta-section */
 
 .cta-section-container{
     flex-direction: column;
@@ -335,4 +335,23 @@ header{
     color: white;
     margin-top: 20px;
 
+}
+
+/* ---------------------------------------------------- */
+
+/* footer section */
+
+ footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
 }
