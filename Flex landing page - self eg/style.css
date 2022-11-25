@@ -230,6 +230,9 @@ header{
     text-align: center;
 }
 
+.features-card img {
+    width: 60px;
+}
 /* ---------------------------------------------------- */
 
 /* big features section */
@@ -354,4 +357,18 @@ header{
 .footer-container{
     align-items: flex-start;
     justify-content: space-between;
+}
+
+/* ---------------------------------------------------- */
+
+/* sub-footer section */
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
